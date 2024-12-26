@@ -1,0 +1,33 @@
+.header {
+  background-color: #e1ede6;
+}
+
+.header__content {
+  display: flex;
+  padding: 33px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  gap: 60px;
+}
+
+.header__item-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--title);
+  transition: var(--main-trs);
+}
+
+.header__item-link:hover {
+    color: var(--btn);
+}
+.header__item-link:focus {
+    background-color: #d4e8d9;
+    outline: none;
+}
+.header__item-link:active {
+    color: var(--green);
+}

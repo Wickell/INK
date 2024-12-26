@@ -1,0 +1,60 @@
+.hero {
+  padding-bottom: 60px;
+}
+
+.hero__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.hero__image {
+  display: block;
+  flex-shrink: 0;
+  width: 50%;
+  object-fit: cover;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 50%;
+  min-height: 330px;
+}
+
+.hero__title span {
+  color: var(--btn);
+}
+
+
+.hero__descr {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--descr);
+}
+
+.hero__button {
+  margin-top: auto;
+  transition: var(--main-trs);
+}
+
+.hero__button:hover {
+  background-color: var(--btn);
+  color: var(--background);
+}
+
+.hero__button:focus {
+  border: 1px solid var(--btn);
+  outline: none;
+  background-color: var(--product-btn);
+  color: var(--btn);
+}
+
+.hero__button:active {
+  background-color: var(--green);
+  color: var(--white);
+}

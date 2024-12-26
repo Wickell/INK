@@ -1,0 +1,101 @@
+.footer {
+  padding: 23px 0;
+  background-color: var(--bg);
+}
+
+.footer__column-logo {
+  grid-column: 1 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__contact {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--title);
+}
+
+.footer__contact-info {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--descr);
+}
+
+.footer__column-lists {
+  display: flex;
+  gap: 60px;
+  grid-column: 4 / 9;
+}
+
+.footer__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--descr);
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.footer__link:hover {
+  color: var(--btn);
+}
+.footer__link:focus {
+  background-color: #d4e8d9;
+  outline: none;
+}
+.footer__link:active {
+  color: var(--green);
+}
+
+
+
+
+.footer__column-social {
+  grid-column: 11 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__column-social .social{
+  display: inline-flex;
+  gap: 30px;
+  margin-bottom: 10px;
+
+}
+
+.footer__social-info p{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #86928b;
+}
+
+.social__link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--title); /* Основной цвет для текста */
+  transition: color 0.3s ease, transform 0.3s ease; /* Плавный переход для цвета и масштаба */
+}
+
+.social__icon {
+  fill: currentColor; /* Иконка будет менять цвет при изменении color */
+}
+
+.social__link:hover {
+  color: var(--btn); /* Цвет текста и иконки при hover */
+  transform: scale(1.1); /* Пример увеличения размера при hover */
+}
+
+.social__icon:hover {
+  fill: var(--btn); /* Меняет цвет иконки на hover */
+}

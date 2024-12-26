@@ -1,0 +1,19 @@
+:root {
+	--bg: #E1EDE6;
+  --background: #f4f6f5;
+	--title: #2C2D35;
+	--green: #376b44;
+	--btn: #598D66;
+  --descr: #86928b;
+  --product-btn: #d4e8d9;
+	--white: #fff;
+
+  --font-family: "Raleway", sans-serif;
+
+  --gap: 30px;
+  --container-width: 1110px;
+  --container-offset: 15px;
+
+  --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease, border-radius 0.5s ease;
+
+}

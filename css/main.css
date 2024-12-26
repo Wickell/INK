@@ -1,0 +1,37 @@
+/* Global */
+@import url('../css/_normalize.css');
+@import url('../css/_fonts.css');
+@import url('../css/_vars.css');
+@import url('../css/_settings.css');
+
+
+/* Header */
+
+@import url('../css/blocks/_btn.css');
+@import url('../css/blocks/logo.css');
+@import url('../css/blocks/_title.css');
+@import url('../css/blocks/header.css');
+/* Hero */
+
+@import url('../css/blocks/_hero.css');
+
+/* Products */
+
+@import url('../css/blocks/_products.css');
+
+
+/* New */
+
+@import url('../css/blocks/_new.css');
+
+/* Team */
+
+@import url('../css/blocks/_team.css');
+
+/* Footer */
+
+@import url('../css/blocks/_footer.css');
+
+/* Media */
+
+@import url('../css/blocks/_media.css');
